@@ -1,0 +1,15 @@
+{
+  "name": "infergate-node-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "chat": "node chat-completion.js",
+    "stream": "node streaming.js",
+    "models": "node list-models.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.0.0"
+  }
+}
