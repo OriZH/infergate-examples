@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InferGate API Docs</title>
+  <meta name="description" content="InferGate API documentation with base URL, authorization header, chat completions and models endpoint examples for OpenAI-style API clients.">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/"><span class="brand-mark">IG</span><span>InferGate</span></a>
+      <div class="nav-links">
+        <a href="/pricing/">Pricing</a>
+        <a href="/docs/">Docs</a>
+        <a href="/contact/">Contact</a>
+        <a class="nav-cta" href="https://app.useinfergate.com/sign-in">Dashboard</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="section">
+        <p class="eyebrow">API documentation</p>
+        <h1>Build with the InferGate API</h1>
+        <p>InferGate provides OpenAI-compatible API access for teams that want one gateway for model routing, API keys, usage tracking, and credit-based consumption.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="content">
+        <h2>Base URL and authorization</h2>
+        <p><strong>Base URL:</strong> <code>https://api.useinfergate.com/v1</code></p>
+        <p><strong>Authorization:</strong> <code>Bearer YOUR_INFERGATE_API_KEY</code></p>
+        <p>Create and manage API keys in the <a href="https://app.useinfergate.com/sign-in">InferGate Dashboard</a>.</p>
+
+        <h2>Chat Completions</h2>
+        <p>Send chat completion requests to the OpenAI-style endpoint using your InferGate API key.</p>
+        <pre class="code-block"><code>curl https://api.useinfergate.com/v1/chat/completions \
+  -H "Authorization: Bearer YOUR_INFERGATE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "gpt-4o-mini",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a concise technical assistant."
+      },
+      {
+        "role": "user",
+        "content": "Explain unified AI API gateways in one paragraph."
+      }
+    ]
+  }'</code></pre>
+
+        <h2>Models endpoint</h2>
+        <p>List models currently available to your account. Model availability depends on account settings, enabled channels, upstream provider availability, and dashboard configuration.</p>
+        <pre class="code-block"><code>curl https://api.useinfergate.com/v1/models \
+  -H "Authorization: Bearer YOUR_INFERGATE_API_KEY"</code></pre>
+
+        <h2>OpenAI-style clients</h2>
+        <p>InferGate is designed to work with OpenAI-style API clients by setting the API key to your InferGate key and the base URL to <code>https://api.useinfergate.com/v1</code>. Review your dashboard for enabled models, current pricing, usage records, and balance before production use.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/privacy-policy/">Privacy Policy</a>
+        <a href="/terms-of-service/">Terms of Service</a>
+        <a href="/refund-policy/">Refund Policy</a>
+        <a href="/contact/">Contact</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/docs/">Docs</a>
+      </div>
+      <div class="footer-meta">
+        <span>© 2026 InferGate. All rights reserved.</span>
+        <span><a href="mailto:support@useinfergate.com">support@useinfergate.com</a></span>
+        <span>InferGate is an independent API gateway and is not officially endorsed by any model provider.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

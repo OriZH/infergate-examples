@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InferGate — Unified AI API Gateway</title>
+  <meta name="description" content="InferGate is a unified AI API gateway for developers and SaaS teams, with OpenAI-compatible access, multi-model routing, API keys, usage tracking, and balance management.">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/"><span class="brand-mark">IG</span><span>InferGate</span></a>
+      <div class="nav-links">
+        <a href="/pricing/">Pricing</a>
+        <a href="/docs/">Docs</a>
+        <a href="/contact/">Contact</a>
+        <a class="nav-cta" href="https://app.useinfergate.com/sign-in">Dashboard</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Developer API infrastructure</p>
+          <h1>InferGate — Unified AI API Gateway</h1>
+          <p class="lead">InferGate is an AI API gateway for developers, SaaS teams, and AI product builders who need OpenAI-compatible API access, multi-model routing, usage controls, and balance management from one API console.</p>
+          <div class="cta-row">
+            <a class="button primary" href="https://app.useinfergate.com/sign-in">Start building</a>
+            <a class="button" href="/docs/">View API docs</a>
+          </div>
+        </div>
+        <div class="console-panel" aria-label="InferGate API example">
+          <div class="console-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+          <pre><code>curl https://api.useinfergate.com/v1/chat/completions \
+  -H "Authorization: Bearer YOUR_INFERGATE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "gpt-4o-mini",
+    "messages": [
+      {"role": "user", "content": "Build with InferGate"}
+    ]
+  }'</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <h2>One gateway for AI API delivery</h2>
+        <p>Use a familiar OpenAI-style interface while managing model access, credentials, usage visibility, and prepaid API consumption in one place.</p>
+      </div>
+      <div class="grid features">
+        <article class="card">
+          <h3>OpenAI-compatible API</h3>
+          <p>Integrate with standard chat completions patterns and OpenAI-style API clients using the InferGate base URL.</p>
+        </article>
+        <article class="card">
+          <h3>Multi-model routing</h3>
+          <p>Route requests through enabled model channels from one API gateway, subject to account configuration and provider availability.</p>
+        </article>
+        <article class="card">
+          <h3>Usage tracking</h3>
+          <p>Monitor API consumption and operational usage records through the InferGate dashboard and API console.</p>
+        </article>
+        <article class="card">
+          <h3>API key management</h3>
+          <p>Create and manage credentials for server-side applications, internal tools, prototypes, and production SaaS workflows.</p>
+        </article>
+        <article class="card">
+          <h3>Balance management</h3>
+          <p>Use paid API credits for usage-based consumption and track available balance before scaling traffic.</p>
+        </article>
+        <article class="card">
+          <h3>Developer API infrastructure</h3>
+          <p>Centralize access patterns for teams building AI features, customer workflows, agents, and data products.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="section">
+        <div class="grid two">
+          <div class="section-heading">
+            <h2>Built for SaaS teams and product builders</h2>
+            <p>InferGate helps teams integrate AI model access without tying application code to a single upstream provider interface.</p>
+          </div>
+          <div class="card">
+            <h3>Operational controls</h3>
+            <ul class="check-list">
+              <li>Dashboard and API console access</li>
+              <li>Centralized API key lifecycle</li>
+              <li>Credit and balance visibility</li>
+              <li>Security, abuse prevention, and support workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/privacy-policy/">Privacy Policy</a>
+        <a href="/terms-of-service/">Terms of Service</a>
+        <a href="/refund-policy/">Refund Policy</a>
+        <a href="/contact/">Contact</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/docs/">Docs</a>
+      </div>
+      <div class="footer-meta">
+        <span>© 2026 InferGate. All rights reserved.</span>
+        <span><a href="mailto:support@useinfergate.com">support@useinfergate.com</a></span>
+        <span>InferGate is an independent API gateway and is not officially endorsed by any model provider.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
