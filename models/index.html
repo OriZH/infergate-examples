@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InferGate Models — Multi-Model Routing</title>
+  <meta name="description" content="InferGate supports multi-model routing through an independent gateway. Availability, pricing, and limits are shown in the Dashboard.">
+  <meta property="og:title" content="InferGate Models">
+  <meta property="og:description" content="Multi-model routing through an independent OpenAI-compatible API gateway.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://useinfergate.com/models/">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="/"><span class="brand-mark">IG</span><span>InferGate</span></a><div class="nav-links"><a href="/pricing/">Pricing</a><a href="/docs/">Docs</a><a href="/models/">Models</a><a href="/use-cases/">Use Cases</a><a href="/contact/">Contact</a><a class="nav-cta" href="https://app.useinfergate.com/sign-in">Dashboard</a></div></nav></header>
+  <main>
+    <section class="page-hero"><div class="section"><p class="eyebrow">Models</p><h1>Multi-model routing from one API layer</h1><p>InferGate routes requests through enabled model channels using OpenAI-compatible API patterns. Available models, routing options, prices, limits, and quotas are account-specific and shown in the Dashboard.</p></div></section>
+    <section class="section">
+      <div class="grid two">
+        <article class="card"><h3>Compatibility-first access</h3><p>Use the <code>/v1/models</code> endpoint to inspect models available to your account, then call <code>/v1/chat/completions</code> with an enabled model name.</p></article>
+        <article class="card"><h3>Independent gateway</h3><p>InferGate is not an official service of OpenAI, Anthropic, Google, Meta, or any other model provider. Provider and model references are for integration compatibility.</p></article>
+      </div>
+      <div class="notice">Model availability may change because of upstream availability, account status, payment status, rate limits, provider policy changes, compliance review, or abuse-prevention controls.</div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><div class="footer-links"><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a><a href="/refund-policy/">Refund Policy</a><a href="/contact/">Contact</a><a href="/pricing/">Pricing</a><a href="/docs/">Docs</a></div><div class="footer-meta"><span><a href="mailto:support@useinfergate.com">support@useinfergate.com</a></span><span>© 2026 InferGate. All rights reserved.</span><span>InferGate is an independent API gateway and is not officially endorsed by any model provider.</span></div></div></footer>
+</body>
+</html>
