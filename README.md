@@ -69,8 +69,6 @@ postman/      Postman collection
 | `INFERGATE_BASE_URL` | Defaults to `https://api.useinfergate.com/v1` |
 | `INFERGATE_MODEL` | Model name enabled in your InferGate dashboard |
 
-## Notes
-
 ## Current models and integration guides
 
 The current public model identifiers are `gpt-5.5`, `gpt-5.6-sol`,

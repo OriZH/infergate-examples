@@ -27,6 +27,7 @@ Current models: gpt-5.5, gpt-5.6-sol, gpt-5.6-terra, gpt-6-astra
 - [Configure an OpenAI SDK custom base URL](https://useinfergate.com/guides/openai-sdk-custom-base-url)
 - [API integration guides](https://useinfergate.com/guides)
 - [API model and provider comparisons](https://useinfergate.com/compare)
+- [About InferGate](https://useinfergate.com/about)
 - [Talk to InferGate support](https://useinfergate.com/contact)
 - [Privacy Policy](https://useinfergate.com/privacy-policy)
 - [Terms of Service](https://useinfergate.com/terms-of-service)
