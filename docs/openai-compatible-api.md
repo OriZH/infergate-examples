@@ -1,5 +1,14 @@
 # OpenAI-Compatible API Guide
 
+For the verified Responses baseline, start with the
+[InferGate API documentation](https://useinfergate.com/docs),
+[Python guide](https://useinfergate.com/guides/python-openai-api), or
+[Node.js guide](https://useinfergate.com/guides/nodejs-openai-api).
+See the [custom base URL checklist](https://useinfergate.com/guides/openai-sdk-custom-base-url)
+for endpoint configuration and the [streaming guide](https://useinfergate.com/guides/api-streaming)
+for completion and cancellation handling. The Chat Completions example below
+illustrates that request format; validate it for your own endpoint needs.
+
 InferGate exposes an OpenAI-compatible API endpoint so existing OpenAI SDK integrations can be migrated with minimal changes.
 
 ## Base URL

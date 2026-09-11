@@ -4,6 +4,10 @@ OpenAI-compatible API examples and lightweight SDK starters for **InferGate**.
 
 InferGate is a unified AI API gateway for developers who want to call multiple AI model providers through a familiar OpenAI-compatible interface.
 
+Start with a [Responses API example](#responses-api-quickstart) for the four
+currently published model IDs. Requests consume account credit; examples do
+not promise free access or production availability for every account.
+
 - Website: https://useinfergate.com
 - API Base URL: `https://api.useinfergate.com/v1`
 - Sign up: https://app.useinfergate.com/sign-up
@@ -20,6 +24,35 @@ export INFERGATE_MODEL="gpt-5.5"
 ```
 
 ## OpenAI SDK compatible usage
+
+### Responses API quickstart
+
+Use a current OpenAI SDK release with Responses support. Keep the key in your
+server environment. These examples require completed, non-empty text output.
+
+```bash
+# Python, from the repository root
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install --upgrade openai
+python examples/python/responses.py
+
+# Node.js
+cd examples/node
+npm install openai@latest
+node responses.mjs
+```
+
+| Integration question | Guide |
+|---|---|
+| Get GPT-5.5 API access | [Setup and prepaid usage](https://useinfergate.com/gpt-5-5-api) |
+| Choose a GPT-5.6 variant | [GPT-5.6 API](https://useinfergate.com/gpt-5-6-api) |
+| Select sol or terra | [Variant evaluation worksheet](https://useinfergate.com/compare/gpt-5-6-sol-vs-terra) |
+| Evaluate a provider migration | [OpenRouter alternative checklist](https://useinfergate.com/compare/openrouter-alternative) |
+| Understand gateway responsibilities | [AI API gateway](https://useinfergate.com/ai-api-gateway) |
+
+The SDK examples below also include Chat Completions patterns. Validate that
+endpoint and any optional parameters separately for your workload.
 
 ### Python
 
