@@ -23,7 +23,7 @@ curl https://api.useinfergate.com/v1/chat/completions \
   -H "Authorization: Bearer $INFERGATE_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-4o-mini",
+    "model": "gpt-5.5",
     "messages": [
       {"role": "user", "content": "Hello from InferGate"}
     ]

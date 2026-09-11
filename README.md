@@ -6,8 +6,8 @@ InferGate is a unified AI API gateway for developers who want to call multiple A
 
 - Website: https://useinfergate.com
 - API Base URL: `https://api.useinfergate.com/v1`
-- Sign up: https://api.useinfergate.com/register
-- Sign in: https://api.useinfergate.com/sign-in
+- Sign up: https://app.useinfergate.com/sign-up
+- Sign in: https://app.useinfergate.com/sign-in
 
 ## Quick start
 
@@ -16,7 +16,7 @@ Create an account, top up your balance, create an API key in the dashboard, then
 ```bash
 export INFERGATE_API_KEY="your_infergate_api_key"
 export INFERGATE_BASE_URL="https://api.useinfergate.com/v1"
-export INFERGATE_MODEL="gpt-4o-mini"
+export INFERGATE_MODEL="gpt-5.5"
 ```
 
 ## OpenAI SDK compatible usage
@@ -70,6 +70,30 @@ postman/      Postman collection
 | `INFERGATE_MODEL` | Model name enabled in your InferGate dashboard |
 
 ## Notes
+
+## Current models and integration guides
+
+The current public model identifiers are `gpt-5.5`, `gpt-5.6-sol`,
+`gpt-5.6-terra`, and `gpt-6-astra`. Use the exact identifier; family names
+are not aliases. Your authenticated model list remains authoritative for
+account access. Retired models return `model_not_available` without silent
+substitution.
+
+- [GPT-5.5 model](https://useinfergate.com/models/gpt-5-5)
+- [GPT-5.6 sol model](https://useinfergate.com/models/gpt-5-6-sol)
+- [GPT-5.6 terra model](https://useinfergate.com/models/gpt-5-6-terra)
+- [GPT-6 astra model](https://useinfergate.com/models/gpt-6-astra)
+- [Python SDK guide](https://useinfergate.com/guides/python-openai-api)
+- [Node.js SDK guide](https://useinfergate.com/guides/nodejs-openai-api)
+- [Streaming completion and cancellation](https://useinfergate.com/guides/api-streaming)
+- [Custom base URL configuration](https://useinfergate.com/guides/openai-sdk-custom-base-url)
+- [OpenAI-compatible API](https://useinfergate.com/openai-compatible-api)
+- [Prepaid pricing](https://useinfergate.com/pricing)
+
+The guides use the Responses API, verified for all four current models.
+Existing Chat Completions examples demonstrate that endpoint's request format;
+verify the endpoint and optional parameters required by your workload before
+migrating traffic.
 
 Model availability depends on the upstream channels enabled in your InferGate account. Check your dashboard or `/v1/models` before using a model in production.
 

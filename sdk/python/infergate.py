@@ -8,7 +8,7 @@ class InferGate:
     def __init__(self, api_key=None, base_url=None, default_model=None):
         self.api_key = api_key or os.getenv("INFERGATE_API_KEY")
         self.base_url = base_url or os.getenv("INFERGATE_BASE_URL", "https://api.useinfergate.com/v1")
-        self.default_model = default_model or os.getenv("INFERGATE_MODEL", "gpt-4o-mini")
+        self.default_model = default_model or os.getenv("INFERGATE_MODEL", "gpt-5.5")
         self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
 
     def chat(self, message, model=None, system="You are a helpful assistant."):

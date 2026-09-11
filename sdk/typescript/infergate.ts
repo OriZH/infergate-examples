@@ -15,7 +15,7 @@ export class InferGate {
       apiKey: options.apiKey || process.env.INFERGATE_API_KEY,
       baseURL: options.baseURL || process.env.INFERGATE_BASE_URL || 'https://api.useinfergate.com/v1',
     });
-    this.defaultModel = options.defaultModel || process.env.INFERGATE_MODEL || 'gpt-4o-mini';
+    this.defaultModel = options.defaultModel || process.env.INFERGATE_MODEL || 'gpt-5.5';
   }
 
   async chat(message: string, model = this.defaultModel): Promise<string> {

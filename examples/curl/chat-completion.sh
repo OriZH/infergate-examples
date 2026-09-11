@@ -3,7 +3,7 @@ set -euo pipefail
 
 : "${INFERGATE_API_KEY:?Please set INFERGATE_API_KEY}"
 BASE_URL="${INFERGATE_BASE_URL:-https://api.useinfergate.com/v1}"
-MODEL="${INFERGATE_MODEL:-gpt-4o-mini}"
+MODEL="${INFERGATE_MODEL:-gpt-5.5}"
 
 curl "${BASE_URL}/chat/completions" \
   -H "Authorization: Bearer ${INFERGATE_API_KEY}" \

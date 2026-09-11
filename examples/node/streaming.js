@@ -6,7 +6,7 @@ const client = new OpenAI({
   baseURL: process.env.INFERGATE_BASE_URL || 'https://api.useinfergate.com/v1',
 });
 
-const model = process.env.INFERGATE_MODEL || 'gpt-4o-mini';
+const model = process.env.INFERGATE_MODEL || 'gpt-5.5';
 
 const stream = await client.chat.completions.create({
   model,

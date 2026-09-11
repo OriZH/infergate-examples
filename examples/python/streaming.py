@@ -9,7 +9,7 @@ client = OpenAI(
     base_url=os.getenv("INFERGATE_BASE_URL", "https://api.useinfergate.com/v1"),
 )
 
-model = os.getenv("INFERGATE_MODEL", "gpt-4o-mini")
+model = os.getenv("INFERGATE_MODEL", "gpt-5.5")
 
 stream = client.chat.completions.create(
     model=model,

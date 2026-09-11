@@ -1,0 +1,37 @@
+# InferGate
+
+Independent OpenAI-compatible API gateway.
+Base URL: https://api.useinfergate.com/v1
+Current models: gpt-5.5, gpt-5.6-sol, gpt-5.6-terra, gpt-6-astra
+
+- [InferGate](https://useinfergate.com/)
+- [Available AI models](https://useinfergate.com/models)
+- [GPT-5.5 API model](https://useinfergate.com/models/gpt-5-5)
+- [GPT-5.6-sol API model](https://useinfergate.com/models/gpt-5-6-sol)
+- [GPT-5.6-terra API model](https://useinfergate.com/models/gpt-5-6-terra)
+- [GPT-6-astra API model](https://useinfergate.com/models/gpt-6-astra)
+- [GPT-5.5 API](https://useinfergate.com/gpt-5-5-api)
+- [GPT-5.6 API](https://useinfergate.com/gpt-5-6-api)
+- [GPT-6 API](https://useinfergate.com/gpt-6-api)
+- [Prepaid API pricing](https://useinfergate.com/pricing)
+- [InferGate API documentation](https://useinfergate.com/docs)
+- [OpenAI-compatible API](https://useinfergate.com/openai-compatible-api)
+- [Multi-model API](https://useinfergate.com/multi-model-api)
+- [AI API gateway](https://useinfergate.com/ai-api-gateway)
+- [OpenRouter alternative: evaluate InferGate](https://useinfergate.com/compare/openrouter-alternative)
+- [GPT-5.5 vs GPT-5.6: API evaluation](https://useinfergate.com/compare/gpt-5-5-vs-gpt-5-6)
+- [GPT-5.6 sol vs terra](https://useinfergate.com/compare/gpt-5-6-sol-vs-terra)
+- [Use the OpenAI Python SDK with InferGate](https://useinfergate.com/guides/python-openai-api)
+- [Use the OpenAI Node.js SDK with InferGate](https://useinfergate.com/guides/nodejs-openai-api)
+- [Stream API responses with InferGate](https://useinfergate.com/guides/api-streaming)
+- [Configure an OpenAI SDK custom base URL](https://useinfergate.com/guides/openai-sdk-custom-base-url)
+- [API integration guides](https://useinfergate.com/guides)
+- [API model and provider comparisons](https://useinfergate.com/compare)
+- [Talk to InferGate support](https://useinfergate.com/contact)
+- [Privacy Policy](https://useinfergate.com/privacy-policy)
+- [Terms of Service](https://useinfergate.com/terms-of-service)
+- [Refund Policy](https://useinfergate.com/refund-policy)
+- [Acceptable Use Policy](https://useinfergate.com/acceptable-use-policy)
+- [Promotional Credit Policy](https://useinfergate.com/promotional-credit-policy)
+- [Cookie Policy](https://useinfergate.com/cookie-policy)
+- [Security and Account Access Policy](https://useinfergate.com/security-and-account-access-policy)
