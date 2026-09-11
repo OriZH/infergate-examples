@@ -1,4 +1,3 @@
-https://www.useinfergate.com/* https://useinfergate.com/:splat 301
 /models/ /models 301
 /models/gpt-5-5/ /models/gpt-5-5 301
 /models/gpt-5-6-sol/ /models/gpt-5-6-sol 301
@@ -24,7 +23,7 @@ https://www.useinfergate.com/* https://useinfergate.com/:splat 301
 /contact/ /contact 301
 /privacy-policy/ /privacy-policy 301
 /terms-of-service/ /terms-of-service 301
-/refund-policy/ /refund-policy 301
+/legal/refund/ /legal/refund 301
 /acceptable-use-policy/ /acceptable-use-policy 301
 /promotional-credit-policy/ /promotional-credit-policy 301
 /cookie-policy/ /cookie-policy 301
@@ -35,10 +34,10 @@ https://www.useinfergate.com/* https://useinfergate.com/:splat 301
 /use-cases/ /ai-api-gateway 301
 /legal/privacy/* /privacy-policy 301
 /legal/terms/* /terms-of-service 301
-/legal/refund/* /refund-policy 301
+/legal/refund/* /legal/refund 301
 /privacy /privacy-policy 301
 /terms /terms-of-service 301
-/refund /refund-policy 301
+/refund /legal/refund 301
 /openai-compatible-api-gateway/* /openai-compatible-api 301
 /openrouter-alternative/* /compare/openrouter-alternative 301
 /prepaid-ai-api-credits/* /pricing 301

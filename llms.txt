@@ -30,7 +30,7 @@ Current models: gpt-5.5, gpt-5.6-sol, gpt-5.6-terra, gpt-6-astra
 - [Talk to InferGate support](https://useinfergate.com/contact)
 - [Privacy Policy](https://useinfergate.com/privacy-policy)
 - [Terms of Service](https://useinfergate.com/terms-of-service)
-- [Refund Policy](https://useinfergate.com/refund-policy)
+- [Refund Policy](https://useinfergate.com/legal/refund)
 - [Acceptable Use Policy](https://useinfergate.com/acceptable-use-policy)
 - [Promotional Credit Policy](https://useinfergate.com/promotional-credit-policy)
 - [Cookie Policy](https://useinfergate.com/cookie-policy)
